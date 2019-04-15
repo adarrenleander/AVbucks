@@ -1,0 +1,224 @@
+/* COLORS
+coffee (d2l): #38220f #59331f #634832 #745037 #856148 #dbc1ac #ece0d1 fffce1
+*/
+
+body {
+    height: 100%;
+    margin: 0 auto;
+    font-family: Poppins;
+}
+
+/***** Master Styling *****/
+#header {
+    background-color: #634832;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header-logo {
+    float: left;
+    padding: 10px 0;
+}
+
+#header-logo img {
+    vertical-align: middle;
+}
+
+#navbar {
+    float: right;
+    letter-spacing: 2px;
+}
+
+#navbar ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar ul li {
+    list-style-type: none;
+    float: left;
+    line-height: 100px;
+    width: 150px;
+    transition: 0.3s;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #fffce1;
+    display: block;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+#navbar ul li:hover {
+    background-color: #59331f;
+}
+
+#navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: #745037;
+}
+
+#navbar ul li:hover ul {
+    display: block;
+}
+
+#navbar ul li ul li {
+    width: 100%;
+    padding: 0;
+}
+
+#navbar ul li ul li:hover {
+    background-color: #856148;
+}
+
+#navbar ul li:hover ul li a {
+    color: #fffce1;
+    font-size: 15px;
+}
+
+#navbar ul li ul li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+}
+
+.active {
+    background-color: #38220f;
+}
+
+#content-master {
+    background-image: url(https://placehold.it/400x300);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    background-color: #ece0d1;
+}
+
+#contact {
+    display: flex;
+}
+
+#contact-details, #contact-form {
+    flex: 50%;
+}
+
+#contact-details {
+    padding: 50px 50px 50px 150px;
+    color: #38220f;
+}
+
+#contact-details h2 {
+    font-size: 40px;
+    margin: 0;
+    line-height: 35px;
+    text-align: justify;
+}
+
+#contact-details p {
+    margin: 0;
+    margin-top: 15px;
+}
+
+#contact-details span {
+    color: #634832;
+    font-weight: bold;
+}
+
+#content-details a {
+    text-decoration: none;
+}
+
+#contact-details i {
+    font-size: 40px;
+    color: #634832;
+    transition: 0.4s;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 55px;
+    margin: 10px 5px;
+}
+
+#contact-details i:hover {
+    font-size: 50px;
+    margin: 10px 20px;
+}
+
+#contact-form {
+    padding: 50px 150px 50px 50px;
+}
+
+#contact-form input, textarea {
+    font-family: Poppins;
+}
+
+#contact-form input[type=text], textarea {
+    font-size: 15px;
+    padding: 10px;
+    margin: 7px auto;
+    border: 0;
+}
+
+#contact-form input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
+}
+
+#contact-form input[type=text] {
+    width: 75%;
+}
+
+#contact-form textarea {
+    font-family: Poppins;
+    font-size: 15px;
+    padding: 10px;
+    width: 75.4%;
+    height: 200px;
+    resize: vertical;
+}
+
+#contact-form input[type=submit] {
+    background-color: #856148;
+    padding: 15px 70px;
+    border: 0;
+    display: block;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ece0d1;
+    transition: 0.4s;
+}
+
+#contact-form input[type=submit]:hover {
+    background-color: #634832;
+}
+
+#copyright {
+    background-color: #38220f;
+    margin: 0;
+    padding: 25px;
+}
+
+#copyright h6 {
+    margin: 0;
+    color: #fffce1;
+    font-weight: normal;
+    font-size: 15px;
+}
+/***** *****/
