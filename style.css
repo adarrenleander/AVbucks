@@ -2,10 +2,13 @@
 coffee (d2l): #38220f #59331f #634832 #745037 #856148 #dbc1ac #ece0d1 fffce1
 */
 
+* {
+    font-family: Poppins;
+}
+
 body {
     height: 100%;
     margin: 0 auto;
-    font-family: Poppins;
 }
 
 /***** Master Styling *****/
@@ -166,10 +169,6 @@ body {
     padding: 50px 150px 50px 50px;
 }
 
-#contact-form input, textarea {
-    font-family: Poppins;
-}
-
 #contact-form input[type=text], textarea {
     font-size: 15px;
     padding: 10px;
@@ -186,7 +185,6 @@ body {
 }
 
 #contact-form textarea {
-    font-family: Poppins;
     font-size: 15px;
     padding: 10px;
     width: 75.4%;
