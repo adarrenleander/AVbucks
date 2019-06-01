@@ -12,7 +12,7 @@ body {
 }
 
 /***** Master Styling *****/
-#header {
+.header {
     background-color: #634832;
     display: inline-block;
     width: 100%;
@@ -21,33 +21,33 @@ body {
     padding: 0;
 }
 
-#header-content {
+.header .header-content {
     width: 80%;
     margin: 0 auto;
 }
 
-#header-logo {
+.header .header-content .header-logo {
     float: left;
     padding: 10px 0;
 }
 
-#header-logo img {
+.header .header-content .header-logo img {
     vertical-align: middle;
 }
 
-#navbar {
+.header .header-content .navbar {
     float: right;
     letter-spacing: 2px;
 }
 
-#navbar ul {
+.header .header-content .navbar ul {
     overflow: hidden;
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
-#navbar ul li {
+.header .header-content .navbar ul li {
     list-style-type: none;
     float: left;
     line-height: 100px;
@@ -55,7 +55,7 @@ body {
     transition: 0.3s;
 }
 
-#navbar ul li a {
+.header .header-content .navbar ul li a {
     text-decoration: none;
     color: #fffce1;
     display: block;
@@ -63,35 +63,35 @@ body {
     padding: 10px 0;
 }
 
-#navbar ul li:hover {
+.header .header-content .navbar ul li:hover {
     background-color: #59331f;
 }
 
-#navbar ul li ul {
+.header .header-content .navbar ul li ul {
     display: none;
     position: absolute;
     background-color: #745037;
 }
 
-#navbar ul li:hover ul {
+.header .header-content .navbar ul li:hover ul {
     display: block;
 }
 
-#navbar ul li ul li {
+.header .header-content .navbar ul li ul li {
     width: 100%;
     padding: 0;
 }
 
-#navbar ul li ul li:hover {
+.header .header-content .navbar ul li ul li:hover {
     background-color: #856148;
 }
 
-#navbar ul li:hover ul li a {
+.header .header-content .navbar ul li:hover ul li a {
     color: #fffce1;
     font-size: 15px;
 }
 
-#navbar ul li ul li a {
+.header .header-content .navbar ul li ul li a {
     text-decoration: none;
     display: block;
     height: 50px;
@@ -102,7 +102,7 @@ body {
     background-color: #38220f;
 }
 
-#content-master {
+.content-master {
     background-image: url(https://placehold.it/400x300);
     background-repeat: no-repeat;
     background-size: cover;
@@ -110,47 +110,47 @@ body {
     width: 100%;
 }
 
-#footer {
+.footer {
     margin: 0;
     padding: 0;
     background-color: #ece0d1;
 }
 
-#contact {
+.footer .contact {
     display: flex;
 }
 
-#contact-details, #contact-form {
+.footer .contact .contact-details, .footer .contact .contact-form {
     flex: 50%;
 }
 
-#contact-details {
+.footer .contact .contact-details {
     padding: 50px 50px 50px 150px;
     color: #38220f;
 }
 
-#contact-details h2 {
+.footer .contact .contact-details h2 {
     font-size: 40px;
     margin: 0;
     line-height: 35px;
     text-align: justify;
 }
 
-#contact-details p {
+.footer .contact .contact-details p {
     margin: 0;
     margin-top: 15px;
 }
 
-#contact-details span {
+.footer .contact .contact-details span {
     color: #634832;
     font-weight: bold;
 }
 
-#content-details a {
+.footer .contact .content-details a {
     text-decoration: none;
 }
 
-#contact-details i {
+.footer .contact .contact-details i {
     font-size: 40px;
     color: #634832;
     transition: 0.4s;
@@ -160,31 +160,31 @@ body {
     margin: 10px 5px;
 }
 
-#contact-details i:hover {
+.footer .contact .contact-details i:hover {
     font-size: 50px;
     margin: 10px 20px;
 }
 
-#contact-form {
+.footer .contact .contact-form {
     padding: 50px 150px 50px 50px;
 }
 
-#contact-form input[type=text], textarea {
+.footer .contact .contact-form input[type=text], textarea {
     font-size: 15px;
     padding: 10px;
     margin: 7px auto;
     border: 0;
 }
 
-#contact-form input[type=text]:focus, textarea:focus {
+.footer .contact .contact-form input[type=text]:focus, textarea:focus {
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
 }
 
-#contact-form input[type=text] {
+.footer .contact .contact-form input[type=text] {
     width: 75%;
 }
 
-#contact-form textarea {
+.footer .contact .contact-form textarea {
     font-size: 15px;
     padding: 10px;
     width: 75.4%;
@@ -192,7 +192,7 @@ body {
     resize: vertical;
 }
 
-#contact-form input[type=submit] {
+.footer .contact .contact-form input[type=submit] {
     background-color: #856148;
     padding: 15px 70px;
     border: 0;
@@ -203,17 +203,17 @@ body {
     transition: 0.4s;
 }
 
-#contact-form input[type=submit]:hover {
+.footer .contact .contact-form input[type=submit]:hover {
     background-color: #634832;
 }
 
-#copyright {
+.footer .copyright {
     background-color: #38220f;
     margin: 0;
     padding: 25px;
 }
 
-#copyright h6 {
+.footer .copyright h6 {
     margin: 0;
     color: #fffce1;
     font-weight: normal;
