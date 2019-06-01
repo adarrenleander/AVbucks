@@ -1,0 +1,7 @@
+Features:
+Open Up Navbar with button
+Progress bar for scrolling
+Click to Email
+Glowing box
+Zoomable Website(MAX MIN WIDTH)
+Enlarge ICON
