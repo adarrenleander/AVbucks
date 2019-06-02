@@ -50,6 +50,12 @@
     opacity: 1;
     transition: 0.4s;
 }
+
+#menu .menu-container .color-span {
+    color: #856148;
+    font-size: 43px;
+}
+
 /********** **********/
 
 /********** IMAGES FOR COFFEE MENU **********/
@@ -212,7 +218,7 @@
 
 /********** IMAGES FOR DESSERTS & COOKIES MENU **********/
 #menu .desscook-flex-1 {
-    background-image: url(../images/desserts-cookies/chocolate-chip-cookies.jpg);
+    background-image: url(../images/desserts-cookies/chocolate-chip-cookies-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -220,12 +226,12 @@
 }
 
 #menu .desscook-flex-1:hover {
-    background-image: url(../images/coffee/caffe-latte-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/chocolate-chip-cookies-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-2 {
-    background-image: url(../images/coffee/cappuccino-square.jpg);
+    background-image: url(../images/desserts-cookies/oatmeal-raisin-cookies-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -233,12 +239,12 @@
 }
 
 #menu .desscook-flex-2:hover {
-    background-image: url(../images/coffee/cappuccino-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/oatmeal-raisin-cookies-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-3 {
-    background-image: url(../images/coffee/caffe-americano-square.jpg);
+    background-image: url(../images/desserts-cookies/7-seeds-cookies-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -246,12 +252,12 @@
 }
 
 #menu .desscook-flex-3:hover {
-    background-image: url(../images/coffee/caffe-americano-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/7-seeds-cookies-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-4 {
-    background-image: url(../images/coffee/espresso-square.jpg);
+    background-image: url(../images/desserts-cookies/glazed-pillow-doughnut-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -259,12 +265,12 @@
 }
 
 #menu .desscook-flex-4:hover {
-    background-image: url(../images/coffee/espresso-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/glazed-pillow-doughnut-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-5 {
-    background-image: url(../images/coffee/caffe-mocha-square.jpg);
+    background-image: url(../images/desserts-cookies/nutella-bombolone-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -272,12 +278,12 @@
 }
 
 #menu .desscook-flex-5:hover {
-    background-image: url(../images/coffee/caffe-mocha-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/nutella-bombolone-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-6 {
-    background-image: url(../images/coffee/espresso-macchiato-square.jpg);
+    background-image: url(../images/desserts-cookies/red-velvet-roll-cake-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -285,12 +291,12 @@
 }
 
 #menu .desscook-flex-6:hover {
-    background-image: url(../images/coffee/espresso-macchiato-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/red-velvet-roll-cake-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-7 {
-    background-image: url(../images/coffee/cold-brew-square.jpg);
+    background-image: url(../images/desserts-cookies/chocolate-fudge-brownies-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -298,12 +304,12 @@
 }
 
 #menu .desscook-flex-7:hover {
-    background-image: url(../images/coffee/cold-brew-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/chocolate-fudge-brownies-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-8 {
-    background-image: url(../images/coffee/coffee-frappuccino-square.jpg);
+    background-image: url(../images/desserts-cookies/new-york-cheesecake-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -311,12 +317,12 @@
 }
 
 #menu .desscook-flex-8:hover {
-    background-image: url(../images/coffee/coffee-frappuccino-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/new-york-cheesecake-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-9 {
-    background-image: url(../images/coffee/espresso-frappuccino-square.jpg);
+    background-image: url(../images/desserts-cookies/oreo-cheesecake-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -324,12 +330,12 @@
 }
 
 #menu .desscook-flex-9:hover {
-    background-image: url(../images/coffee/espresso-frappuccino-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/oreo-cheesecake-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-10 {
-    background-image: url(../images/coffee/caramel-frappuccino-square.jpg);
+    background-image: url(../images/desserts-cookies/dark-chocolate-cake-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -337,12 +343,12 @@
 }
 
 #menu .desscook-flex-10:hover {
-    background-image: url(../images/coffee/caramel-frappuccino-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/dark-chocolate-cake-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-11 {
-    background-image: url(../images/coffee/dark-mocha-frappuccino-square.jpg);
+    background-image: url(../images/desserts-cookies/mocha-macarons-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -350,12 +356,12 @@
 }
 
 #menu .desscook-flex-11:hover {
-    background-image: url(../images/coffee/dark-mocha-frappuccino-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/mocha-macarons-square-overlay.jpg);
     transition: 0.4s;
 }
 
 #menu .desscook-flex-12 {
-    background-image: url(../images/coffee/java-chip-frappuccino-square.jpg);
+    background-image: url(../images/desserts-cookies/tiramisu-macarons-square.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 250px;
@@ -363,7 +369,7 @@
 }
 
 #menu .desscook-flex-12:hover {
-    background-image: url(../images/coffee/java-chip-frappuccino-square-overlay.jpg);
+    background-image: url(../images/desserts-cookies/tiramisu-macarons-square-overlay.jpg);
     transition: 0.4s;
 }
 /********** **********/
