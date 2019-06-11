@@ -35,6 +35,14 @@ body {
     vertical-align: middle;
 }
 
+.header .header-content .header-logo .logo-circle {
+    height: 100px;
+}
+
+.header .header-content .header-logo .logo-text {
+    height: 100px;
+}
+
 .header .header-content .navbar {
     float: right;
     letter-spacing: 2px;
@@ -100,6 +108,73 @@ body {
 
 .active {
     background-color: #38220f;
+}
+
+.icon {
+    display: none;
+}
+
+@media only screen and (max-width: 620px) {
+    .header .header-content {
+        width: 100%;
+    }
+    
+    .header .header-content .header-logo {
+        margin-left: 20px;
+    }
+
+    .header .header-content .header-logo .logo-circle {
+        height: 50px;
+    }
+    
+    .header .header-content .header-logo .logo-text {
+        height: 50px;
+    }
+
+    .header .header-content .navbar li {
+        display: none;
+    }
+
+    .header .header-content .navbar li.icon {
+        display: block;
+        padding: 10px;
+        line-height: 50px;
+        width: 50px;
+    }
+
+    .header .header-content .navbar ul li.icon:hover {
+        background-color: #634832;
+    }
+
+    .header .header-content .navbar ul li.icon a {
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .header .header-content .navbar.responsive {
+        position: relative;
+    }
+    
+    .header .header-content .navbar.responsive {
+        float: none;
+        position: fixed;
+    }
+
+    .header .header-content .navbar.responsive li {
+        display: block;
+        width: 100%;
+    }
+
+    .header .header-content .navbar.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .header .header-content .navbar ul li ul {
+        display: block;
+        position: relative;
+    }
 }
 
 .content-master {
@@ -218,5 +293,40 @@ body {
     color: #fffce1;
     font-weight: normal;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 620px) {
+    .footer .contact {
+        display: block;
+    }
+    
+    .footer .contact .contact-details, .footer .contact .contact-form {
+        width: 100%;
+    }
+
+    .footer .contact .contact-details {
+        padding: 50px 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer .contact .contact-form {
+        padding: 0 0 50px 0;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .footer .contact .contact-form input[type=text] {
+        width: 95%;
+    }
+    
+    .footer .contact .contact-form textarea {
+        width: 95%;
+    }
+
+    .footer .copyright {
+        text-align: center;
+        padding: 15px;
+    }
 }
 /***** *****/
