@@ -45,6 +45,27 @@
     font-size: 43px;
 }
 
+@media only screen and (max-width: 620px) {
+    #menu .menu-container {
+        width: 80%;
+    }
+
+    #menu .flex-row {
+        display: block;
+        margin: 0;
+    }
+
+    #menu .flex-items {
+        width: 100%;
+        margin: 30px 0 0 0;
+    }
+
+    #menu .flex-items p {
+        opacity: 1;
+        padding-top: 35%;
+        font-size: 25px;
+    }
+}
 /********** **********/
 
 /********** IMAGE SLIDER **********/
@@ -161,6 +182,50 @@
     right: 0;
     padding: 5px 8px 5px 10px;
 }
+
+@media only screen and (max-width: 620px) {
+    #menu .slider-content  {
+        height: 90vh;
+        overflow: contain;
+    }
+
+    #menu .slider .slider-text h1 {
+        font-size: 40px;
+    }
+    
+    #menu .slider .slider-text p {
+        font-size: 18px;
+    }
+
+    #menu .slider .first-slide .slider-text {
+        width: 80%;
+        padding: 25% 0;
+    }
+
+    #menu .slider .second-slide .slider-text {
+        width: 80%;
+        margin: 0 auto;
+        padding: 35% 0;
+        text-align: center;
+    }
+
+    #menu .slider .third-slide .slider-text {
+        width: 80%;
+        margin: 0 auto;
+        padding: 25% 0;
+        text-align: center;
+    }
+
+    #menu .slider .fourth-slide .slider-text {
+        width: 80%;
+        padding: 40% 0;
+    }
+
+    #menu .slider .prev, .next {
+        top: 50%;
+    }
+}
+
 /********** **********/
 
 /********** IMAGES FOR COFFEE MENU **********/
