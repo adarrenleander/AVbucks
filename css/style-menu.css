@@ -69,18 +69,27 @@
 /********** **********/
 
 /********** IMAGE SLIDER **********/
+#menu .slider-container {
+    height: 80vh;
+    width: 98.9vw;
+    overflow: hidden;
+    margin-top: -6.5px;
+}
 
 #menu .slider {
-    margin-top: -6.5px;
+    height: 80vh;
+    width: 500vw;
+    margin: 0;
+    padding: 0;
 }
 
 #menu .slider-content  {
     height: 80vh;
-    width: 100%;
+    width: 98.9vw;
     margin: 0;
     padding: 0;
-    display: none;
     color: #ffffff;
+    float: left;
 }
 
 #menu .slider .slider-text h1 {
@@ -151,11 +160,7 @@
     padding: 13% 0;
 }
 
-#menu .slider .selected {
-    display: block;
-}
-
-#menu .slider .prev, .next {
+#menu .slider-container .prev, .next {
     position: absolute;
     top: 52%;
     font-size: 40px;
@@ -167,18 +172,18 @@
     color: #ffffff;
 }
 
-#menu .slider .prev:hover, .next:hover {
+#menu .slider-container .prev:hover, .next:hover {
     opacity: 1;
     transition: 0.4s;
     background-color: #000000;
 }
 
-#menu .slider .prev {
+#menu .slider-container .prev {
     left: 0;
     padding: 5px 10px 5px 8px;
 }
 
-#menu .slider .next {
+#menu .slider-container .next {
     right: 0;
     padding: 5px 8px 5px 10px;
 }
@@ -221,7 +226,7 @@
         padding: 40% 0;
     }
 
-    #menu .slider .prev, .next {
+    #menu .slider-container .prev, .next {
         top: 50%;
     }
 }
