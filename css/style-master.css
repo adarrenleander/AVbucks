@@ -110,17 +110,76 @@ body {
     background-color: #38220f;
 }
 
-.icon {
+.header .icon {
     display: none;
+    width: 7vw;
+    height: 75px;
+    line-height: 75px;
+    text-decoration: none;
+    color: #fffce1;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.header .header-content .navbar-resp {
+    display: none;
+    width: 100%;
+}
+
+.header .header-content .navbar-resp ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.header .header-content .navbar-resp ul li {
+    list-style-type: none;
+    line-height: 70px;
+    width: 150px;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.header .header-content .navbar-resp ul li a {
+    text-decoration: none;
+    color: #fffce1;
+    display: block;
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.header .header-content .navbar-resp ul li:hover {
+    background-color: #59331f;
+}
+
+.header .header-content .navbar-resp ul .submenu {
+    background-color: #745037;
+}
+
+.header .header-content .navbar-resp ul .submenu li:hover {
+    background-color: #856148;
+}
+
+.header .header-content .navbar-resp ul .submenu li a {
+    color: #fffce1;
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 620px) {
+    .clear {
+        clear: both;
+    }
+
     .header .header-content {
         width: 100%;
     }
     
     .header .header-content .header-logo {
         margin-left: 20px;
+        float: none;
+        display: inline;
+        margin: 0 auto;
     }
 
     .header .header-content .header-logo .logo-circle {
@@ -131,49 +190,16 @@ body {
         height: 50px;
     }
 
-    .header .header-content .navbar li {
+    .header .header-content .navbar {
         display: none;
     }
 
-    .header .header-content .navbar li.icon {
+    .header .icon {
+        display: inline-block;
+    }
+
+    .header .navbar-resp.responsive {
         display: block;
-        padding: 10px;
-        line-height: 50px;
-        width: 50px;
-    }
-
-    .header .header-content .navbar ul li.icon:hover {
-        background-color: #634832;
-    }
-
-    .header .header-content .navbar ul li.icon a {
-        padding: 0;
-        font-size: 25px;
-    }
-
-    .header .header-content .navbar.responsive {
-        position: relative;
-    }
-    
-    .header .header-content .navbar.responsive {
-        float: none;
-        position: fixed;
-    }
-
-    .header .header-content .navbar.responsive li {
-        display: block;
-        width: 100%;
-    }
-
-    .header .header-content .navbar.responsive li.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    .header .header-content .navbar ul li ul {
-        display: block;
-        position: relative;
     }
 }
 

@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style-menu.css">
     <link rel="stylesheet" type="text/css" href="css/style-master.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"> 
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <title>AVbucks - COFFEES</title>
 </head>
@@ -14,11 +14,12 @@
     <div id="menu">
         <div class="header">
             <div class="header-content">
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fas fa-bars"></i></a>
                 <div class="header-logo">
                     <a href="home.html"><img src="images/logo/logo-circle.png" alt="AVbucks Logo" class="logo-circle"></a>
                     <a href="home.html"><img src="images/logo/logo-text.png" alt="AVbucks Company Name" class="logo-text"></a>
                 </div>
-                <div class="navbar" id="topnav">
+                <div class="navbar">
                     <ul>
                         <li><a href="home.html">HOME</a></li>
                         <li>
@@ -30,7 +31,19 @@
                         </li>
                         <li><a href="about.html">ABOUT US</a></li>
                         <li><a href="card.html">CARD</a></li>
-                        <li class="icon"><a href="javascript:void(0);" onclick="openMenu()"><i class="fa fa-bars"></i></a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <div class="navbar-resp" id="myTopnav">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li id="dropdown-btn"><a href="#" class="active">MENU</a></li>
+                        <ul class="submenu">
+                            <li><a href="menu-coffees.html">COFFEES</a></li>
+                            <li><a href="menu-dessertcookies.html">DESSERTS AND COOKIES</a></li>
+                        </ul>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="card.html">CARD</a></li>
                     </ul>
                 </div>
             </div>
@@ -135,9 +148,9 @@
                         Tangerang</p>
                     <p><span>Phone: </span>+6221 282 8257</p>
                     <p><span>Email: </span>contact@avbucks.com</p>
-                    <a href="https://instagram.com/avbucks" target="_blank"><i class="fa fa-instagram"></i></a>
-                    <a href="https://twitter.com/avbucks" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                    <a href="https://facebook.com/avbucks" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="https://instagram.com/avbucks" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/avbucks" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://facebook.com/avbucks" target="_blank"><i class="fab fa-facebook"></i></a>
                 </div>
                 <div class="contact-form">
                     <form>
