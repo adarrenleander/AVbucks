@@ -1,5 +1,5 @@
 $(function() {
-    let width = 98.9
+    let width = 100
     let speed = 1500
     let pause = 4000
     

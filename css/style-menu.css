@@ -2,18 +2,19 @@
 #menu .menu-container {
     width: 80%;
     margin: 0 auto;
-    padding: 65px 0 80px 0;
+    padding: 65px 0 40px 0;
 }
 
 #menu .menu-container h2 {
-    text-align: center;
+    text-align: left;
     margin: 0;
     font-size: 35px;
+    margin-bottom: 10px;
 }
 
 #menu .flex-row {
     display: flex;
-    margin-top: 45px;
+    margin-bottom: 45px;
 }
 
 #menu .flex-items {
@@ -71,7 +72,7 @@
 /********** IMAGE SLIDER **********/
 #menu .slider-container {
     height: 80vh;
-    width: 98.9vw;
+    width: 100%;
     overflow: hidden;
     margin-top: -6.5px;
 }
@@ -85,7 +86,7 @@
 
 #menu .slider-content  {
     height: 80vh;
-    width: 98.9vw;
+    width: 100vw;
     margin: 0;
     padding: 0;
     color: #ffffff;
@@ -194,8 +195,12 @@
         overflow: contain;
     }
 
+    #menu .slider .slider-text {
+        width: 80%;
+    }
+
     #menu .slider .slider-text h1 {
-        font-size: 40px;
+        font-size: 30px;
     }
     
     #menu .slider .slider-text p {
