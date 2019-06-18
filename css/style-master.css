@@ -154,6 +154,7 @@ body {
 }
 
 .header .header-content .navbar-resp ul .submenu {
+    display: none;
     background-color: #745037;
 }
 

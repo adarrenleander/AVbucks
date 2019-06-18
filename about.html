@@ -1,100 +1,117 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style-about.css">
-        <link rel="stylesheet" type="text/css" href="css/style-master.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
-        <title>AVbucks - ABOUT</title>
-    </head>
-    <body>
-        <div id="about">
-            <div class="header">
-                <div class="header-content">
-                    <div class="header-logo">
-                       <a href="home.html"><img src="https://placehold.it/100x100" alt="AVbucks Logo"></a>
-                       <a href="home.html"><img src="https://placehold.it/200x50" alt="AVbucks Company Name"></a>
-                    </div>
-                    <div class="navbar">
-                        <ul>
-                            <li><a href="home.html">HOME</a></li>
-                            <li>
-                                <a href="#">MENU</a>
-                                <ul>
-                                    <li><a href="menu-coffees.html">COFFEES</a></li>
-                                    <li><a href="menu-dessertcookies.html">DESSERTS AND COOKIES</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html" class="active">ABOUT US</a></li>
-                            <li><a href="card.html">CARD</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style-about.css">
+    <link rel="stylesheet" type="text/css" href="css/style-master.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <title>AVbucks - ABOUT</title>
+</head>
+<body>
+    <div id="about">
+        <div class="header">
+            <div class="header-content">
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()"><i class="fas fa-bars"></i></a>
+                <div class="header-logo">
+                    <a href="home.html"><img src="images/logo/logo-circle.png" alt="AVbucks Logo" class="logo-circle"></a>
+                    <a href="home.html"><img src="images/logo/logo-text.png" alt="AVbucks Company Name" class="logo-text"></a>
+                </div>
+                <div class="navbar" id="topnav">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li>
+                            <a href="#">MENU</a>
+                            <ul>
+                                <li><a href="menu-coffees.html">COFFEES</a></li>
+                                <li><a href="menu-dessertcookies.html">DESSERTS AND COOKIES</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="about.html" class="active">ABOUT US</a></li>
+                        <li><a href="card.html">CARD</a></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <div class="navbar-resp" id="myTopnav">
+                    <ul>
+                        <li><a href="home.html">HOME</a></li>
+                        <li id="dropdown-btn"><a href="#" class="active">MENU</a></li>
+                        <ul class="submenu">
+                            <li><a href="menu-coffees.html">COFFEES</a></li>
+                            <li><a href="menu-dessertcookies.html">DESSERTS AND COOKIES</a></li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="content">
-                <div class="history">
-                    <div>
-                        <h1><b>About Us</b></h1>
-                    </div>
-                    <div>
-                        <h2>Our History</h2>
-                        <img src="images/about/warung traditional.jpg">
-                        <p>In 1981, Tiny Tim (AVbucks chairman, president and chief executive officer) first walked into a AVbucks store. From his first cup of Sumatra, Tiny was drawn into AVbucks and joined a year later.
-                        <br> <br>
-                        A year later, in 1983, Tiny travelled to Italy and became captivated by Italian coffee bars and the romance of the coffee experience. He had a vision to bring the Italian coffeehouse tradition back to the United States. A place for conversation and a sense of community. A third place between work and home. He left AVbucks for a short period of time to start his own Il Giornale coffeehouses and returned in August 1987 to purchase Starbucks with the help of local investors.
-                        <br> <br>
-                        From the beginning, AVbucks set out to be a different kind of company. One that not only celebrated coffee and the rich tradition, but that also brought a feeling of connection.
-                        <br> <br>
-                        Our mission to inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.
-                        <br> <br>
-                        Today, with more than 75 markets, AVbucks is the premier roaster and retailer of specialty coffee in the world. And with every cup, we strive to bring both our heritage and an exceptional experience to life.</p>
-                    </div>
-                </div>
-                <div class="owner">
-                    <h2>Our Founder</h2>
-                    <div class="card">
-                        <img src="images/about/owner.jpg" alt="Avatar" style="width:100%">
-                        <div class="container">
-                            <p class="owner_name"><b>Tiny Tim</b></p>
-                            <p>AVbucks Founder</p>
-                        </div>
-                    </div>
-                    <div class="owner_desc">
-                        <p>Born in Brooklyn, New York, on July 19, 1953, Tiny Tim graduated from Northern Michigan University with a bachelor's degree in communications before becoming director of retail operations and marketing for the AVbucks Coffee Company in 1982. After founding the coffee company Il Giornale in 1987, he purchased AVbucks and became CEO and chairman of the company. Tim publicly announced that he was resigning as AVbucks' CEO in 2000, though he returned to head the company from 2008 to 2018.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer">
-                <div class="contact">
-                    <div class="contact-details">
-                        <h2>Contact Us</h2>
-                        <p>If you have further inquiries or suggestions, feel free to fill in this form or contact us directly through the means below.</p>
-                        <p><span>Address: </span>Binus University Alam Sutera, Jl. Jalur Sutera Barat Kav. 21, Alam Sutera, Tangerang</p>
-                        <p><span>Phone: </span>+6221 282 8257</p>
-                        <p><span>Email: </span>contact@avbucks.com</p>
-                        <a href="https://instagram.com/avbucks" target="_blank"><i class="fa fa-instagram"></i></a>
-                        <a href="https://twitter.com/avbucks" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://facebook.com/avbucks" target="_blank"><i class="fa fa-facebook-official"></i></a>
-                    </div>
-                    <div class="contact-form">
-                        <form>
-                            <input type="text" placeholder="Name">
-                            <br>
-                            <input type="text" placeholder="Email">
-                            <br>
-                            <textarea placeholder="Message"></textarea>
-                            <br>
-                            <input type="submit">
-                        </form>
-                    </div>
-                </div>
-                <div class="copyright">
-                    <h6>Copyright &copy; All Rights Reserved 2018 | AVbucks</h6>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="card.html">CARD</a></li>
+                    </ul>
                 </div>
             </div>
         </div>
-    </body>
+        <div class="content">
+            <div class="history">
+                <div>
+                    <h1>About Us<span>.</span></h1>
+                </div>
+                <div>
+                    <h2>Our History</h2>
+                    <img src="images/about/warung traditional.jpg">
+                    <p>In 1981, Tiny Tim (AVbucks chairman, president and chief executive officer) first walked into a AVbucks store. From his first cup of Sumatra, Tiny was drawn into AVbucks and joined a year later.
+                    <br> <br>
+                    A year later, in 1983, Tiny travelled to Italy and became captivated by Italian coffee bars and the romance of the coffee experience. He had a vision to bring the Italian coffeehouse tradition back to the United States. A place for conversation and a sense of community. A third place between work and home. He left AVbucks for a short period of time to start his own Il Giornale coffeehouses and returned in August 1987 to purchase Starbucks with the help of local investors.
+                    <br> <br>
+                    From the beginning, AVbucks set out to be a different kind of company. One that not only celebrated coffee and the rich tradition, but that also brought a feeling of connection.
+                    <br> <br>
+                    Our mission to inspire and nurture the human spirit – one person, one cup and one neighborhood at a time.
+                    <br> <br>
+                    Today, with more than 75 markets, AVbucks is the premier roaster and retailer of specialty coffee in the world. And with every cup, we strive to bring both our heritage and an exceptional experience to life.</p>
+                </div>
+            </div>
+            <div class="owner">
+                <h2>Our Founder</h2>
+                <div class="card">
+                    <img src="images/about/owner.jpg" alt="Avatar" style="width:100%">
+                    <div class="container">
+                        <p class="owner_name"><b>Tiny Tim</b></p>
+                        <p>AVbucks Founder</p>
+                    </div>
+                </div>
+                <div class="owner_desc">
+                    <p>Born in Brooklyn, New York, on July 19, 1953, Tiny Tim graduated from Northern Michigan University with a bachelor's degree in communications before becoming director of retail operations and marketing for the AVbucks Coffee Company in 1982. After founding the coffee company Il Giornale in 1987, he purchased AVbucks and became CEO and chairman of the company. Tim publicly announced that he was resigning as AVbucks' CEO in 2000, though he returned to head the company from 2008 to 2018.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="contact">
+                <div class="contact-details">
+                    <h2>Contact Us</h2>
+                    <p>If you have further inquiries or suggestions, feel free to fill in this form or contact us directly through the means below.</p>
+                    <p><span>Address: </span>Binus University Alam Sutera, Jl. Jalur Sutera Barat Kav. 21, Alam Sutera, Tangerang</p>
+                    <p><span>Phone: </span>+6221 282 8257</p>
+                    <p><span>Email: </span>contact@avbucks.com</p>
+                    <a href="https://instagram.com/avbucks" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/avbucks" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://facebook.com/avbucks" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Name">
+                        <br>
+                        <input type="text" placeholder="Email">
+                        <br>
+                        <textarea placeholder="Message"></textarea>
+                        <br>
+                        <input type="submit">
+                    </form>
+                </div>
+            </div>
+            <div class="copyright">
+                <h6>Copyright &copy; All Rights Reserved 2018 | AVbucks</h6>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/menu-script.js"></script>
+<script src="js/general-script.js"></script>
 </html>
