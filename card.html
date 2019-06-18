@@ -23,14 +23,14 @@
                     <ul>
                         <li><a href="home.html">HOME</a></li>
                         <li>
-                            <a href="#" class="active">MENU</a>
+                            <a href="#">MENU</a>
                             <ul>
                                 <li><a href="menu-coffees.html">COFFEES</a></li>
                                 <li><a href="menu-dessertcookies.html">DESSERTS AND COOKIES</a></li>
                             </ul>
                         </li>
                         <li><a href="about.html">ABOUT US</a></li>
-                        <li><a href="card.html">CARD</a></li>
+                        <li><a href="card.html" class="active">CARD</a></li>
                     </ul>
                 </div>
                 <div class="clear"></div>
@@ -49,7 +49,56 @@
             </div>
         </div>
         <div class="content">
-            
+            <h1>Card<span>.</span></h1>
+            <div class="register-container">
+                <h3>Register now to become a premium <span>AVbucks</span> member!</h3>
+                <form class="card-form" id="myForm" onsubmit="return validate()">
+                    <div class="form-component">
+                        <label class="field-name">Email</label>
+                        <br>
+                        <input type="text" id="txtEmail">
+                        <br>
+                        <label id="errEmail" class="error"></label>
+                    </div>
+                    <div class="form-component">
+                        <label class="field-name">Password</label>
+                        <br>
+                        <input type="password" id="txtPass">
+                        <br>
+                        <label id="errPass" class="error"></label>
+                    </div>
+                    <div class="form-component">
+                        <label class="field-name">Confirm Password</label>
+                        <br>
+                        <input type="password" id="txtConfPass">
+                        <br>
+                        <label id="errConfPass" class="error"></label>
+                    </div>
+                    <div class="form-component">
+                        <label class="field-name">Address</label>
+                        <br>
+                        <textarea id="txtAddress"></textarea>
+                        <br>
+                        <label id="errAddress" class="error"></label>
+                    </div>
+                    <div class="form-component">
+                        <label class="field-name">Gender</label>
+                        <br>
+                        <input type="radio" name="rbGender" id="rbMale"><label class="rb-gender rb-male">Male</label>
+                        <input type="radio" name="rbGender" id="rbFemale"><label class="rb-gender">Female</label>
+                        <br>
+                        <label id="errGender" class="error"></label>
+                    </div>
+                    <div class="form-component">
+                        <label class="field-name">Date of Birth</label>
+                        <br>
+                        <input type="date" id="dtpDate">
+                        <br>
+                        <label id="errDOB" class="error"></label>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
         </div>
         <div class="footer">
             <div class="contact">
@@ -86,4 +135,5 @@
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/menu-script.js"></script>
 <script src="js/general-script.js"></script>
+<script src="js/card-script.js"></script>
 </html>

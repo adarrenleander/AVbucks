@@ -1,5 +1,5 @@
 /* COLORS
-coffee (d2l): #38220f #59331f #634832 #745037 #856148 #dbc1ac #ece0d1 fffce1
+coffee (d2l): #38220f #59331f #634832 #745037 #856148 #dbc1ac #ece0d1 #fffce1
 */
 
 * {
@@ -271,14 +271,14 @@ body {
     padding: 50px 150px 50px 50px;
 }
 
-.footer .contact .contact-form input[type=text], textarea {
+.footer .contact .contact-form input[type=text], .footer .contact .contact-form textarea {
     font-size: 15px;
     padding: 10px;
     margin: 7px auto;
     border: 0;
 }
 
-.footer .contact .contact-form input[type=text]:focus, textarea:focus {
+.footer .contact .contact-form input[type=text]:focus, .footer .contact .contact-form textarea:focus {
     box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.3);
 }
 
