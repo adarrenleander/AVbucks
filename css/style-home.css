@@ -20,6 +20,14 @@
     padding: 2%;
 }
 
+.header .header-content .navbar ul li:hover ul{
+    position: absolute;
+    z-index: 1;
+}
+.header .header-content .navbar ul li ul li {
+    padding-bottom: 25px;
+}
+
 .banner-container{
     width: 100%;
 }
@@ -27,7 +35,6 @@
 [class*="desktop"]{
     max-width: 1920px;
     margin: 0 auto;
-    border: 2px solid black;
     background-size: 100% 100%;                      
     background-repeat: no-repeat;
     background-position: center center;
@@ -49,9 +56,18 @@
     height: 70%;
 }
 
+.content [class*="banner"] .col-6{
+    position: absolute;
+    top: 8%;
+    right: 25%;
+    height: 70%;
+    text-align: center;
+   
+}
+
 .content [class*="banner"] [class*="flipped"]{
     position: absolute;
-    top:15%;
+    top: 7%;
     left: 0;
     height: 70%;
 }
@@ -65,31 +81,59 @@
     margin-top: 20px;
     font-size: 1.3vw;
     height: 80%;
+    line-height: 5vh;
 }
 
-.banner-container [class*="banner"] [class*="flipped"] .col-5 .title .text{
+.banner-container [class*="banner"] .col-6 .title #text{
+    font-family: 'Happy Monkey', cursive;
+    text-shadow: 10px 10px 5px rgb(78, 78, 78);
+    font-size: 4vw;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: #00c3ff;
+    margin: 0;
+}
+
+.content [class*="banner"] .col-6 #description{
+    font-family: 'Happy Monkey', cursive;
+    font-size: 1.5vw;
+    margin-top: 3%;
+    font-weight: bold;
+    text-shadow: 8px 8px 4px yellow;
+}
+
+.banner-container [class*="banner"] [class*="flipped"] .title .text{
     text-align: right;
+    margin: 0;
+}
+
+.banner-container [class*="banner"] [class*="flipped"]  .description{
+    text-align: right;
+    line-height: 5vh;
 }
 
 .banner-container .banner1{
     background-image: url("../images/home/home-cappucino-3by1.png");
-    position: relative;
 }
 
 .banner-container .banner2{
-    background-image: url("../images/home/javachip-frappucino-funsummer-3by1.png")
+    background-image: url("../images/home/cheesecake-3by1.png")
 }
 
 .banner-container .banner3{
-    background-image: url("../images/home/cheesecake-3by1.png")
+    
+    background-image: url("../images/home/javachip-frappucino-funsummer-3by1.png")
 }
 
 [class*="resp"]{
     max-width: 1080px;
-    height: px;
+    height: 10px;
     display: none;
 }
 
+#test-text{
+    font-family: 'Happy Monkey', cursive; 
+}
 .banner-container .banner1-resp{
     background-image: url("../images/home/home-cappucino-3by1.png")
 }
